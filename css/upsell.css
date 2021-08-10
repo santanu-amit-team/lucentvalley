@@ -1,0 +1,242 @@
+html {
+  font-size: 16px !important;
+}
+body {
+  color: #000;
+}
+p {
+  font-size: 16px !important;
+}
+.container {
+  width: 100%;
+  max-width: 1410px;
+  padding: 0 15px;
+  margin: auto;
+}
+.section_upsell {
+  background: url("../images/upsell-bg.jpg") no-repeat center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.max-container {
+  max-width: 800px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.section_upsell_wrap {
+  position: relative;
+  padding: 48px 0 40px;
+}
+.section_upsell_wrap > * + * {
+  margin-top: 20px;
+}
+.section_upsell_wrap p {
+  font-size: 16px !important;
+  color: #fff;
+  font-weight: 300;
+}
+.section_upsell_wrap h3 {
+  font-size: 30px;
+  line-height: 1.2;
+  color: #fff;
+}
+.section_upsell_wrap .price {
+  font-size: 36px;
+  font-weight: 100;
+  color: #fff;
+}
+.section_upsell_wrap .price span {
+  color: #fff000;
+  font-weight: 700;
+}
+p.offer {
+  color: #fff000;
+  font-weight: 400;
+}
+.special-offer {
+  position: absolute;
+  top: -18px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.decline {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: underline;
+}
+.decline img {
+  padding-right: 8px;
+  max-width: 30px;
+}
+.decline:hover {
+  color: #fff;
+  text-decoration: underline !important;
+}
+
+/*review section*/
+.review_box {
+  padding: 20px 0 40px;
+  font-family: "Poppins", sans-serif;
+}
+.review_box li {
+  font-size: 14px;
+}
+.review_box li + li {
+  margin-top: 32px;
+}
+.review_box li > * + * {
+  margin-top: 0.75em;
+}
+.review_box li h5 {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 700;
+  color: #000;
+}
+.review_box li h5 span {
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+}
+.review_box li p {
+  font-size: 14px !important;
+}
+.ft1 {
+  padding: 24px 0;
+}
+.ft1,
+.ft2 {
+  font-size: 14px !important;
+}
+.ft1 p,
+.ft2 p {
+  font-size: 14px !important;
+}
+
+/*thankyou page*/
+.thanks-header {
+  font-family: "Roboto", sans-serif;
+  padding: 12px 0;
+}
+.thanks-header p {
+  font-size: 14px !important;
+  font-weight: 700;
+}
+.thanks-header p span {
+  color: #009cff;
+}
+.thanks_banner {
+  background: url("../images/thank-bg.jpg");
+  background-position: 20% 0px;
+  padding: 24px 0px 32px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+}
+.thanks_banner .container {
+  max-width: 1140px;
+}
+.shipping_box {
+  border: 4px solid #ff8400;
+  background: #ffe8cf;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+.shipping_box p {
+  font-size: 18px !important;
+}
+.shipping_box p span {
+  color: #00a908;
+  font-weight: 700;
+}
+img.thank-prd {
+  max-width: 100%;
+  width: 300px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.confirm {
+  font-size: clamp(18px, 4vw, 24px);
+  color: #00a908;
+}
+.confirm img {
+  padding-right: 16px;
+  max-width: 60px;
+}
+.thanks_banner_content > * + * {
+  margin-top: 1em;
+}
+.thanks_banner_content p {
+  font-size: 16px !important;
+}
+.thanks_banner_content p a {
+  color: #00a908;
+  text-decoration: underline;
+  font-weight: 700;
+}
+/*section_guarantee*/
+.section_guarantee {
+  background: #088c05;
+  padding: 12px 0 24px;
+}
+.section_guarantee .container {
+  max-width: 1000px;
+}
+.guarantee_wrap h6 {
+  font-size: 18px;
+}
+.guarantee_wrap p {
+  font-size: 14px !important;
+}
+/*section_amazing*/
+.section_amazing {
+  font-family: "Roboto", sans-serif;
+  background: #f4f4f4;
+}
+.section_amazing h4 {
+  font-size: 24px;
+}
+.section_amazing p {
+  font-size: 14px !important;
+}
+/*section_faq*/
+.section_faq {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 32px;
+}
+.section_faq .container {
+  max-width: 1140px;
+}
+.section_faq h3 {
+  font-size: 30px;
+}
+.faq_list {
+  margin-bottom: 32px;
+}
+.faq_list li + li {
+  margin-top: 20px;
+}
+.faq_list li h6 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.faq_list li p {
+  font-size: 18px !important;
+}
+
+/*responsive*/
+@media (min-width: 768px) {
+  .review_box {
+    padding: 60px 0;
+  }
+  .thanks-header p {
+    font-size: 18px !important;
+  }
+  .thanks_banner {
+    background-position: center;
+  }
+}
