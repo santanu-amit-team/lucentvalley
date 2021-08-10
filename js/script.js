@@ -1,5 +1,10 @@
 
     $(document).ready(function(){
+
+
+
+
+
       $('.sec6 .owl-carousel').owlCarousel({
           loop:true,
           margin:10,
@@ -25,6 +30,15 @@
               }
           }
       });
+
+      $(".package").click(function(){
+        $(".package").removeClass("active");
+        $(this).addClass("active");
+        });
+
+
     });
 
 
+
+      
